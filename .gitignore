@@ -1,0 +1,10 @@
+node_modules
+.next
+out
+.DS_Store
+.env*.local
+*.log
+
+# Internal review / critique notes — not for public
+.critique/
+
