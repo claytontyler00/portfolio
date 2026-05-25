@@ -12,7 +12,7 @@ export default function Home() {
         <section className="hero">
           <p className="eyebrow">Head of AI, Specialty · Artera</p>
           <h1>
-            <span className="accent-italic">Design discipline</span> is the most undervalued edge in patient-facing AI.
+            I build AI that <span className="accent-italic">patients</span> actually use.
           </h1>
           <p className="lede">
             I came up through product design, ran the design org at Artera, and now run intake AI. Most patient-facing software treats the experience as a configuration layer on top of an EHR. I don&apos;t.

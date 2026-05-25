@@ -89,7 +89,7 @@ header.nav {
   font-weight: 600;
   letter-spacing: -0.018em;
 }
-.wordmark .italic-serif { color: var(--accent-display); font-weight: 400; }
+.wordmark .italic-serif { color: inherit; font-weight: 400; }
 .nav ul {
   list-style: none;
   display: flex;
@@ -469,7 +469,7 @@ footer.site-footer a:hover { color: var(--accent); }
   font-feature-settings: "tnum" 1, "lnum" 1;
 }
 .prose p strong { font-weight: 600; color: var(--ink); }
-.prose p em { font-style: italic; font-family: var(--serif); color: var(--accent); }
+.prose p em { font-style: italic; font-family: var(--serif); color: var(--ink); }
 .prose ul, .prose ol {
   padding-left: 24px;
   margin: 0 0 24px;
