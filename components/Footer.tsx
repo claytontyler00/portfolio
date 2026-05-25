@@ -6,7 +6,7 @@ export default function Footer() {
         <div className="footer-secondary">Based in Santa Barbara, CA</div>
       </div>
       <div className="contact-links">
-        <a href="mailto:clayton.tyler@artera.io">Email</a>
+        <a href="mailto:claytonltyler00@gmail.com">Email</a>
         <a
           href="https://www.linkedin.com/in/clayton-tyler-99a571bb/"
           target="_blank"

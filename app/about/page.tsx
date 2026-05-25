@@ -89,7 +89,7 @@ export default function AboutPage() {
                   enterprise SaaS, and AI-native companies.
                 </p>
                 <p className="about-cta-links">
-                  <a href="mailto:clayton.tyler@artera.io">Email</a>
+                  <a href="mailto:claytonltyler00@gmail.com">Email</a>
                   <span className="sep" aria-hidden="true">·</span>
                   <a
                     href="https://www.linkedin.com/in/clayton-tyler-99a571bb/"
