@@ -4,7 +4,9 @@ out
 .DS_Store
 .env*.local
 *.log
+next-env.d.ts
 
 # Internal review / critique notes — not for public
 .critique/
+docs/
 
