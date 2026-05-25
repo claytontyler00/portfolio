@@ -4,10 +4,11 @@ subtitle: A multi-step patient care journey builder, shipped with a multi-specia
 role: Designer
 year: "2022-2023"
 order: 5
+nextSlug: specialty-intake-service-blueprint
 summary: Multi-step patient care journey builder shipped with a multi-specialty clinic launch partner. Diary studies, prototype testing, and a self-service authoring model that put providers back in control of their own flows.
 metric: "40%"
 metricLabel: "no-show drop"
-tldr: "Healthcare communication teams were building between two and ten separate automations to cover a single patient journey, because Artera's existing tool had no concept of a multi-step flow. Providers lost visibility into where patients were dropping off, silo'd triggers fired against each other, and a sixty-plus-day endoscopy prep journey took over an hour of focused build time per customer before testing or content review. I led design, research, and prototype testing for Conversation Steps, ran a two-week diary study to quantify the build-time problem, designed the step grammar against a unified journey model, and shipped with a multi-specialty clinic launch partner. The first launch-partner flow drove a 40% reduction in no-show appointments, a 25% drop in inbound call volume, and a roughly 75% cut in time to build a new multi-step flow at that customer (n=1 launch partner; cohort numbers were not consistently instrumented across early customers). Every customer in the 5-to-10 customer beta cohort authored a flow and deployed it without CSM help."
+tldr: "Healthcare communication teams were stitching between two and ten separate automations to cover a single patient journey, because Artera's existing tool had no concept of a multi-step flow. A sixty-day endoscopy prep journey took over an hour of focused build time per customer before testing. I led design, research, and prototype testing, ran a two-week diary study to quantify the build-time problem, designed the step grammar against a unified journey model, and shipped with a multi-specialty clinic launch partner. Every customer in the 5-to-10 customer beta cohort authored a flow and deployed it without CSM help (n=1 launch partner; cohort numbers were not consistently instrumented across early customers)."
 stats:
   - value: "40%"
     label: "No-show reduction"

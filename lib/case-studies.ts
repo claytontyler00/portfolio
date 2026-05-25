@@ -21,6 +21,7 @@ export type CaseMeta = {
   metricLabel: string;
   tldr?: string;
   stats?: { value: string; label: string }[];
+  nextSlug?: string;
 };
 
 export type CaseStudy = CaseMeta & {
@@ -46,6 +47,7 @@ function buildMeta(slug: string, data: Record<string, unknown>): CaseMeta {
           label: String(s.label ?? ""),
         }))
       : undefined,
+    nextSlug: data.nextSlug ? String(data.nextSlug) : undefined,
   };
 }
 

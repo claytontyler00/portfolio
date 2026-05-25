@@ -4,10 +4,11 @@ subtitle: Standing up an AI squad and authoring its founding artifact.
 role: Head of AI and designer
 year: "2026"
 order: 1
+nextSlug: pacemaker-federated-prompt-ready
 summary: An EHR-portable service blueprint for a new AI squad serving 50 specialty practices. The shared model the squad uses to argue capability bets and the artifact I hand the CEO instead of a deck.
 metric: "$3.78M"
 metricLabel: "CARR served"
-tldr: "In May 2026 the CEO chartered a new squad to serve 50 specialty practices and $3.78M in CARR with no shared model of the work. I took the Head of AI seat, picked a 10-builder squad in two days, and authored an EHR-portable service blueprint in eight more. The blueprint scoped the first capability bet to pre-registration and eligibility, ruled out leading with voice deflection, constrained the cost-estimate workflow to a rules engine instead of an LLM because No Surprises Act estimates have to be regulator-defensible, and named records retrieval as the long-term moat against Tennr."
+tldr: "In May 2026 the CEO chartered a new squad with no shared model of the work. I took the Head of AI seat, picked a 10-builder squad in two days, and authored an EHR-portable service blueprint in eight more. The blueprint scoped the first capability bet to pre-registration and eligibility, ruled out leading with voice deflection, constrained the cost-estimate workflow to a rules engine instead of an LLM because No Surprises Act estimates have to be regulator-defensible, and named records retrieval as the long-term moat against agent-native incumbents."
 stats:
   - value: "$3.78M"
     label: "CARR served"

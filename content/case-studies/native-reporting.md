@@ -4,10 +4,11 @@ subtitle: Artera's first in-product analytics surface.
 role: Sole designer
 year: "2024"
 order: 3
+nextSlug: voice-of-customer
 summary: Artera's first in-product analytics surface. The chart-library reface that made every other reporting surface cheap. Home Dashboard and Analytics Bites patterns used by 716 of roughly 980 enterprise customer organizations.
 metric: "73%"
 metricLabel: "of install base"
-tldr: "Reporting at Artera lived in Looker, which meant customers had to leave the product to act on their own data. As sole designer I shipped Native Reporting from research to GA between February and October 2024. I picked chart.js over Highcharts, Recharts, Nivo, Visx, ECharts, and raw d3, partnered with a principal engineer to reface it against Pacemaker tokens and WCAG AA contrast, and defined the Home Dashboard and Analytics Bites patterns. 716 of roughly 980 enterprise customer organizations have used the surface since launch (about 73% of the install base). Through 2025 and 2026, between 438 and 521 distinct organizations engage in a typical month."
+tldr: "Reporting at Artera lived in Looker, which meant customers had to leave the product to act on their own data. As sole designer I shipped Native Reporting from research to GA between February and October 2024. I picked chart.js over Highcharts, Recharts, Nivo, Visx, ECharts, and raw d3, partnered with a principal engineer to reface it against Pacemaker tokens and WCAG AA contrast, and defined the Home Dashboard and Analytics Bites patterns the rest of the platform's reporting surfaces inherit. The chart-library reface made every other reporting surface cheap."
 stats:
   - value: "73%"
     label: "of enterprise install base"

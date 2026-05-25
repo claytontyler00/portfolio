@@ -1,11 +1,10 @@
 import { ImageResponse } from "next/og";
 
-export const runtime = "edge";
-export const alt = "Clayton Tyler · Design leader who runs AI";
+export const alt = "Clayton Tyler — Head of AI, Specialty at Artera";
 export const size = { width: 1200, height: 630 };
 export const contentType = "image/png";
 
-export default async function Image() {
+export default function OpenGraphImage() {
   return new ImageResponse(
     (
       <div
@@ -15,57 +14,91 @@ export default async function Image() {
           display: "flex",
           flexDirection: "column",
           justifyContent: "space-between",
-          padding: "80px",
-          background: "#f5efe6",
-          color: "#1d1a16",
+          padding: "80px 96px",
+          background: "#ecebe5",
+          fontFamily: "serif",
+          color: "#1a2330",
         }}
       >
-        <div style={{ display: "flex", flexDirection: "column", gap: 24 }}>
-          <div
+        <div
+          style={{
+            display: "flex",
+            alignItems: "baseline",
+            fontSize: 32,
+            fontWeight: 600,
+            letterSpacing: "-0.018em",
+          }}
+        >
+          <span>Clayton</span>
+          <span
             style={{
-              fontSize: 22,
-              textTransform: "uppercase",
-              letterSpacing: 6,
-              color: "#b5531f",
-              fontFamily: "Inter",
+              marginLeft: 12,
+              fontStyle: "italic",
+              fontWeight: 400,
             }}
           >
-            Clayton Tyler
+            Tyler
+          </span>
+        </div>
+
+        <div
+          style={{
+            display: "flex",
+            flexDirection: "column",
+            gap: 28,
+          }}
+        >
+          <div
+            style={{
+              fontSize: 18,
+              fontFamily: "monospace",
+              letterSpacing: "0.22em",
+              textTransform: "uppercase",
+              color: "#1f5f6b",
+            }}
+          >
+            Head of AI · Specialty · Artera
           </div>
           <div
             style={{
-              fontFamily: "Georgia, serif",
-              fontSize: 96,
-              lineHeight: 1.02,
-              letterSpacing: -2,
-              color: "#1d1a16",
-              maxWidth: 900,
+              fontSize: 88,
+              fontWeight: 600,
+              letterSpacing: "-0.028em",
+              lineHeight: 1.04,
+              maxWidth: 1000,
               display: "flex",
               flexWrap: "wrap",
             }}
           >
-            Design leader who{" "}
-            <span style={{ fontStyle: "italic", color: "#b5531f", marginLeft: 16 }}>runs AI</span>{" "}
-            in healthcare.
+            <span>I build AI that&nbsp;</span>
+            <span
+              style={{
+                fontStyle: "italic",
+                fontWeight: 400,
+                color: "#2a7d8c",
+              }}
+            >
+              patients
+            </span>
+            <span>&nbsp;actually use.</span>
           </div>
         </div>
+
         <div
           style={{
             display: "flex",
             justifyContent: "space-between",
-            alignItems: "baseline",
-            fontFamily: "Inter",
             fontSize: 18,
-            color: "#6b6559",
-            borderTop: "1px solid #d9cfbd",
-            paddingTop: 24,
+            fontFamily: "monospace",
+            letterSpacing: "0.06em",
+            color: "#5d6573",
           }}
         >
-          <div>claytontyler.com</div>
-          <div>Head of AI, Specialty · Artera</div>
+          <span>claytontyler.com</span>
+          <span>Selected work · 2022 – 2026</span>
         </div>
       </div>
     ),
-    size
+    { ...size }
   );
 }

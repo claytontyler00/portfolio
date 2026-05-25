@@ -4,10 +4,11 @@ subtitle: A design system, a governance shift, an AI substrate.
 role: Led design system
 year: "2023–2026"
 order: 2
+nextSlug: native-reporting
 summary: Rebuilt Artera's design system twice in nine months. A federated stewardship group that turned every contributing squad into an owner, a prompt-ready substrate that Claude Code, Cursor, and Figma MCP read as ground truth, and an accessibility program that unblocked the federal market.
 metric: "881→71"
 metricLabel: "violations, 9 months"
-tldr: "In nine months I cut Pacemaker's active accessibility violations from 881 to 71, a 92% reduction, by federating governance into a named steering group, rebuilding the substrate to be legible to coding agents, and running the program that shipped Artera's VPAT 2.5 against a federal RFP deadline. The library logs 189,259 component insertions across Artera. VPAT 2.5 shipped December 2025 against WCAG 2.0 AA. AudioCARE reached Section 508 compliance April 2026 on its own codebase. The May 2026 remediation handoff to a sibling squad held without the standard slipping."
+tldr: "I rebuilt Pacemaker twice in nine months: once into a federated stewardship model with a named steering group, once into a prompt-ready substrate that Claude Code, Cursor, and Figma MCP read as ground truth. I ran the program that shipped Artera's VPAT 2.5 against a federal RFP deadline. AudioCARE reached Section 508 compliance April 2026 on its own codebase. The May 2026 remediation handoff to a sibling squad held without the standard slipping."
 stats:
   - value: "881→71"
     label: "A11y violations"

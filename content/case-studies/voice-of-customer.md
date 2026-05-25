@@ -4,17 +4,18 @@ subtitle: One pipeline, every signal.
 role: Led program
 year: "2024"
 order: 4
+nextSlug: conversation-steps
 summary: One pipeline for every customer signal on Pendo Listen with Salesforce account context. PMs hit the 5-business-day response SLA on roughly 9 in 10 submissions. Design-owned, which is uncommon at most SaaS companies.
 metric: "~90%"
 metricLabel: "5-day SLA hit rate"
-tldr: "Artera's customer feedback in early 2024 came from Wootric, Slack, CS tickets, and one-off PM surveys. None of it converged, and prioritization conversations could not tell you whether the customer asking was a $2M health system or a pilot account. I led the migration off Wootric onto Pendo Listen, used the move as the wedge to build a single Voice of the Customer pipeline, integrated submissions with Salesforce so every signal carried ACV, segment, renewal date, and CSM owner, and committed PMs to a 5-business-day response SLA. PMs hit the SLA on roughly 9 in 10 submissions across hundreds of submissions in the first year. The internal Listen board logs 1,000+ unique views per month. The program has resequenced at least one shipped roadmap call I can point to. Design owns the program at Artera, which is uncommon at most SaaS companies."
+tldr: "Artera's customer feedback in early 2024 came from Wootric, Slack, CS tickets, and one-off PM surveys. None of it converged, and prioritization conversations could not tell you whether the customer asking was a $2M health system or a pilot account. I led the migration off Wootric onto Pendo Listen, used the move as the wedge to build a single Voice of the Customer pipeline, integrated submissions with Salesforce so every signal carried ACV, segment, renewal date, and CSM owner, and committed PMs to a 5-business-day response SLA backed by the CPO. The program has resequenced at least one shipped roadmap call I can point to, and customer signal is no longer something CSMs send into the void. Design owns the program at Artera, which is uncommon at most SaaS companies."
 stats:
   - value: "~90%"
     label: "5-day SLA hit rate"
-  - value: "1,000+"
-    label: "Internal views / mo"
   - value: "Design"
     label: "Program owner"
+  - value: "1 hub"
+    label: "Replaced 4 sources"
 ---
 
 ## What the program is

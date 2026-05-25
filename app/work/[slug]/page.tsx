@@ -25,8 +25,8 @@ export default async function CaseStudyPage({ params }: { params: Promise<{ slug
 
   const all = getAllCaseStudies();
   const idx = all.findIndex((c) => c.slug === slug);
-  const prev = idx > 0 ? all[idx - 1] : null;
-  const next = idx >= 0 && idx < all.length - 1 ? all[idx + 1] : null;
+  const nextSlug = cs.nextSlug ?? all[(idx + 1) % all.length]?.slug;
+  const next = nextSlug ? all.find((c) => c.slug === nextSlug) ?? null : null;
   const position = `${idx + 1} of ${all.length}`;
 
   return (
@@ -74,24 +74,16 @@ export default async function CaseStudyPage({ params }: { params: Promise<{ slug
 
           <div className="prose" dangerouslySetInnerHTML={{ __html: cs.html }} />
 
-          <div className="case-nav" aria-label="Adjacent case studies">
-            <div>
-              {prev && (
-                <Link href={`/work/${prev.slug}`}>
-                  <span className="label">← Previous</span>
-                  {prev.title}
-                </Link>
-              )}
-            </div>
-            <div className="case-nav-right">
-              {next && (
+          {next && (
+            <div className="case-nav" aria-label="Next case study">
+              <div className="case-nav-right">
                 <Link href={`/work/${next.slug}`}>
-                  <span className="label">Next →</span>
+                  <span className="label">Next case</span>
                   {next.title}
                 </Link>
-              )}
+              </div>
             </div>
-          </div>
+          )}
         </article>
       </main>
       <Footer />

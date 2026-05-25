@@ -9,4 +9,8 @@ next-env.d.ts
 # Internal review / critique notes — not for public
 .critique/
 docs/
+.review-shots/
+
+# Build artifacts
+tsconfig.tsbuildinfo
 
