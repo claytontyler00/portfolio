@@ -32,10 +32,11 @@ export default function AboutPage() {
                 I design AI for <span className="accent-italic">patients</span>, not for the EHR.
               </h1>
               <p className="about-lede">
-                I&apos;m Head of AI for Specialty at Artera. I came up through product design. Five years ago I
-                was redesigning enrollment screens. Now I&apos;m shipping agents that talk to patients before a
-                human ever does. The throughline is a bet: in healthcare, the patient experience{" "}
-                <i>is</i> the product, not a UI on top of one.
+                I&apos;m Head of AI for Specialty at Artera, and I came up through product design. Five years ago
+                I was redesigning enrollment screens. Now I lead a nine-builder squad designing the agents that
+                will run patient intake for 48 specialty practices. Nothing is live yet, and no implementation
+                team is in the room when an agent talks to a patient at 11pm. The design has to be right before
+                we ship.
               </p>
 
               <div className="about-section">
