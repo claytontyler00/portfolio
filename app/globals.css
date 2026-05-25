@@ -164,7 +164,7 @@ header.nav {
 /* Rules — used sparingly for major section breaks */
 .rule-thick {
   border: 0;
-  margin: 80px 0 56px;
+  margin: 56px 0 48px;
   height: 0;
 }
 
@@ -369,7 +369,7 @@ footer.site-footer a:hover { color: var(--accent); }
   font-weight: 400;
   color: var(--mute);
   line-height: 1.4;
-  margin: 0 0 56px;
+  margin: 0 0 40px;
   max-width: 52ch;
   letter-spacing: -0.012em;
 }
@@ -377,9 +377,9 @@ footer.site-footer a:hover { color: var(--accent); }
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 32px;
-  padding: 28px 0 0;
+  padding: 24px 0 0;
   border-top: 1px solid var(--rule);
-  margin-bottom: 56px;
+  margin-bottom: 40px;
 }
 .case-study .metric-item .number {
   font-family: var(--mono);
@@ -403,7 +403,7 @@ footer.site-footer a:hover { color: var(--accent); }
 .case-study .tldr {
   background: var(--paper);
   padding: 28px 32px;
-  margin: 0 0 56px;
+  margin: 0 0 40px;
   border-left: 3px solid var(--accent);
 }
 .case-study .tldr .label {
@@ -433,10 +433,12 @@ footer.site-footer a:hover { color: var(--accent); }
   font-weight: 600;
   letter-spacing: -0.02em;
   line-height: 1.15;
-  margin: 64px 0 6px;
+  margin: 56px 0 6px;
   position: relative;
   counter-increment: section;
 }
+.prose > h2:first-child,
+.prose > :first-child h2 { margin-top: 0; }
 .prose h2::before {
   content: counter(section, decimal-leading-zero);
   position: absolute;
