@@ -697,7 +697,14 @@ footer.site-footer a:hover { color: var(--accent); }
   .case-nav { flex-direction: column; gap: 24px; }
   .case-nav-right { text-align: left; }
   footer.site-footer { flex-direction: column; gap: 24px; }
-  .prose h2::before { display: none; }
+  .prose h2::before {
+    position: static;
+    display: block;
+    top: auto;
+    left: auto;
+    margin-bottom: 6px;
+    letter-spacing: 0.18em;
+  }
 }
 
 /* Respect reduced motion */
