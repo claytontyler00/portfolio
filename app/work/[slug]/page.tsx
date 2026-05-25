@@ -42,9 +42,15 @@ export default async function CaseStudyPage({ params }: { params: Promise<{ slug
             <span className="current">{cs.title}</span>
           </nav>
 
-          <p className="case-eyebrow">
-            {cs.role} · {cs.year} · <span className="case-position">{position}</span>
-          </p>
+          <div className="case-eyebrow wire-eyebrow">
+            <span>ARTERA</span>
+            <span className="sep">/</span>
+            <span>{cs.role}</span>
+            <span className="sep">/</span>
+            <span>{cs.year}</span>
+            <span className="sep">/</span>
+            <span className="mute">{position}</span>
+          </div>
           <h1>{cs.title}</h1>
           <p className="subtitle">{cs.subtitle}</p>
 

@@ -12,12 +12,10 @@ export default function Home() {
         <section className="hero">
           <p className="eyebrow">Head of AI, Specialty · Artera</p>
           <h1>
-            Design leader who <span className="accent-italic">runs AI</span> in healthcare.
+            <span className="accent-italic">Design discipline</span> is the most undervalued edge in patient-facing AI.
           </h1>
           <p className="lede">
-            I built and led the product design organization at Artera, a patient communication platform used by 800+
-            provider organizations. Now I lead a nine-builder AI squad building agentic patient intake for 48
-            specialty healthcare practices.
+            I came up through product design, ran the design org at Artera, and now run intake AI. Most patient-facing software treats the experience as a configuration layer on top of an EHR. I don&apos;t.
           </p>
         </section>
 
@@ -49,17 +47,9 @@ export default function Home() {
           <div>
             <p className="section-label">Currently</p>
             <p className="cta-body">
-              Leading the specialty AI squad at Artera. Open to conversations about design leadership roles at
-              healthcare SaaS, enterprise SaaS, and AI-native companies.
+              Leading the specialty AI squad at Artera. Open to conversations about design leadership or
+              principal IC roles at healthcare SaaS, enterprise SaaS, and AI-native companies.
             </p>
-          </div>
-          <div className="cta-actions">
-            <Link href="/about" className="cta-link">
-              More about me <span aria-hidden="true">→</span>
-            </Link>
-            <a href="mailto:clayton.tyler@artera.io" className="cta-link">
-              Get in touch <span aria-hidden="true">→</span>
-            </a>
           </div>
         </section>
       </main>

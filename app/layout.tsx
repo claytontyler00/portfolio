@@ -1,13 +1,12 @@
 import type { Metadata, Viewport } from "next";
-import { Instrument_Serif, Inter } from "next/font/google";
+import { Source_Serif_4, Inter, JetBrains_Mono } from "next/font/google";
 import "./globals.css";
 
-const serif = Instrument_Serif({
+const serif = Source_Serif_4({
   subsets: ["latin"],
-  weight: "400",
-  style: ["normal", "italic"],
   display: "swap",
   variable: "--font-serif",
+  axes: ["opsz"],
 });
 
 const sans = Inter({
@@ -15,6 +14,13 @@ const sans = Inter({
   weight: ["400", "500", "600"],
   display: "swap",
   variable: "--font-sans",
+});
+
+const mono = JetBrains_Mono({
+  subsets: ["latin"],
+  weight: ["400", "500"],
+  display: "swap",
+  variable: "--font-mono",
 });
 
 const siteUrl =
@@ -39,21 +45,17 @@ export const metadata: Metadata = {
     title: "Clayton Tyler · Design leader who runs AI",
     description: "Product design leader who runs AI squads in healthcare.",
   },
-  icons: {
-    icon: "/favicon.ico",
-    apple: "/apple-touch-icon.png",
-  },
 };
 
 export const viewport: Viewport = {
-  themeColor: "#f5efe6",
+  themeColor: "#ecebe5",
   width: "device-width",
   initialScale: 1,
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
-    <html lang="en" className={`${serif.variable} ${sans.variable}`}>
+    <html lang="en" className={`${serif.variable} ${sans.variable} ${mono.variable}`}>
       <body>
         <a className="skip-link" href="#main-content">
           Skip to content

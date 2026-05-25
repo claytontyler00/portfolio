@@ -25,9 +25,6 @@ export default function Nav() {
               about
             </Link>
           </li>
-          <li>
-            <a href="mailto:clayton.tyler@artera.io">contact</a>
-          </li>
         </ul>
       </nav>
     </header>
